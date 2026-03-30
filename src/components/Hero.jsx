@@ -122,7 +122,7 @@ function BrowserMockup() {
   );
 }
 
-const DOWNLOAD_URL = 'https://github.com/Chetannaik698/Klord/releases/download/v1.0.0/Klord.Browser.Setup.1.0.0.exe';
+const DOWNLOAD_URL = 'https://github.com/Chetannaik698/Klord/releases/download/v1.0.1/Klord.Browser.Setup.1.0.1.exe';
 
 export default function Hero() {
   const [downloading, setDownloading] = useState(false);
