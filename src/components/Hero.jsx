@@ -122,7 +122,7 @@ function BrowserMockup() {
   );
 }
 
-const DOWNLOAD_URL = 'https://github.com/Chetannaik698/Klord/releases/download/v1.0.1/Klord.Browser.Setup.1.0.1.exe';
+const DOWNLOAD_URL = 'https://github.com/Chetannaik698/Klord/releases/download/v1.0.2/Klord.Browser.Setup.1.0.2.exe';
 
 export default function Hero() {
   const [downloading, setDownloading] = useState(false);
@@ -274,7 +274,7 @@ export default function Hero() {
           }}>
             {[
               { icon: '📦', label: '~82 MB' },
-              { icon: '🏷️', label: 'v1.0.0' },
+              { icon: '🏷️', label: 'v1.0.2' },
               { icon: '🔐', label: 'Signed & Verified' },
             ].map(({ icon, label }) => (
               <span key={label} style={{
